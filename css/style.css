@@ -1,0 +1,80 @@
+body {
+    font-family: 'Gugi', cursive;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.result {
+    width: 100%;
+    box-shadow: 0 0 3px 0 #cecece;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    position: relative;
+}
+
+.result button {
+    position: absolute;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0 0 3px 0 #000;
+    border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.result h1 {
+    color: #666;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.result p {
+    color: #333;
+    font-size: 18px;
+}
+
+input[name='title'], textarea[name='body'], input[name='search'] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+.add-btn {
+    width: 100%;
+    background: #333;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing:  2px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
